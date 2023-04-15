@@ -15,7 +15,6 @@ import com.example.android_2_lesson_2.databinding.FragmentOnBoardBinding
 import com.example.android_2_lesson_2.ui.adapters.OnBoardAdapter
 import com.example.android_2_lesson_2.utils.PrefernceHelper
 
-
 class OnBoardFragment : Fragment() {
 
     private lateinit var binding: FragmentOnBoardBinding
@@ -26,7 +25,6 @@ class OnBoardFragment : Fragment() {
     ): View {
         binding = FragmentOnBoardBinding.inflate(inflater, container, false)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -35,7 +33,6 @@ class OnBoardFragment : Fragment() {
         dots()
         nextButton()
         setupListener()
-
     }
 
     private fun initialize() = with(binding) {

@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import com.example.android_2_lesson_2.R
 import com.example.android_2_lesson_2.databinding.FragmentOnBoardPagingBinding
 
-
 class OnBoardPagingFragment : Fragment() {
 
     private lateinit var binding: FragmentOnBoardPagingBinding
