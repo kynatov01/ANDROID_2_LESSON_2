@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ANDROID_2_LESSON_2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Next">Пропустить</string>
+    <string name="enter">Начать работу</string>
+    <string name="text">TEXT</string>
+</resources>
